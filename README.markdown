@@ -1,1 +1,4 @@
-Ruby Experiments for Parallella Learning\n===
+Ruby Experiments for Parallella Learning
+===
+
+Comparing apples and pomegranates.
