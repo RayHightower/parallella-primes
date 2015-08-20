@@ -1,4 +1,4 @@
-Ruby Experiments for Parallella Learning
+Prime Number Experiments for Parallella Learning
 ===
 
 Comparing apples and pomegranates.
