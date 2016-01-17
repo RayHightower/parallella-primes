@@ -7,14 +7,17 @@
 
 inline int isprime(unsigned long number)
 {
+    if(number > 2 && number % 2 == 0){
+        return 0;
+    }
     unsigned long i;
-      unsigned long s = sqrt(number);
-        for(i=3;i<=s;i+=2)
-            {
-                  if(number % i == 0)
-                          return 0;
-                    }
-          return 1;
+    unsigned long s = sqrt(number);
+    for(i=3;i<=s;i+=2)
+    {
+        if(number % i == 0)
+            return 0;
+    }
+    return 1;
 }
 
 int main(int argc, char* argv[]) {
